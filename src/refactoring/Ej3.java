@@ -40,8 +40,10 @@ public class Ej3 {
 		System.out.println("5. Mostrar valor del producto");
 		System.out.println("6. informar rotura de Stock");
 		System.out.println("7. salir");
+		System.out.println("rrrrrrrrrr");
 		System.out.print("Seleccione una opción: ");
 	}
+	
 
 	private static void IntroducirDatos() {
 		System.out.print("Ingrese el nombre del producto: ");
