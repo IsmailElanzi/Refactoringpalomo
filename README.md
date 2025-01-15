@@ -47,3 +47,8 @@ opción del menú.
 Ej4: verifica si un carácter es una letra y, dependiendo de si se elige "m" o "M", verifica si la letra es minúscula o mayúscula, respectivamente.
 
 Ej5: Crea una jerarquía de clases para representar vehículos. La clase base se llamará Vehiculo y tendrá atributos comunes como marca, modelo, año y velocidad máxima. A partir de esta clase, crea dos clases derivadas: Coche (con un atributo adicional numPuertas) y Motocicleta (con un atributo adicional tieneSidecar). Cada clase debe tener un método mostrarInformacion que imprima los detalles del vehículo, y las clases derivadas deben sobrescribir este método para agregar su información específica. En el método principal, crea instancias de un coche y una motocicleta y muestra su información.
+
+refactoring 
+
+Las mejoras incluyen la modularización del código al dividirlo en métodos independientes para tareas específicas, como obtener la opción del usuario, solicitar números y realizar operaciones, lo que mejora la legibilidad y reutilización. Además, se centralizó la validación de opciones, eliminando redundancias, y se implementó un manejo de errores más claro para evitar cálculos innecesarios en caso de entradas no válidas. Estos cambios hacen el código más limpio, fácil de entender y mantener.
+
